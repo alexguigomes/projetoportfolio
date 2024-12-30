@@ -1,0 +1,397 @@
+@import url("https://fonts.cdnfonts.com/css/star-wars");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  margin-top: 12rem;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: "Star Wars", sans-serif;
+  background-color: none;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  height: 70px;
+  background-color: #0000008a;
+  color: #1945a398;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+  
+}
+
+#logo-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
+
+.links {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  
+}
+.links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.links a:hover {
+  border-bottom: 3px solid #0e57f4;
+  color: #0e57f4;
+  transform: scale(1.1);
+  
+}
+
+#carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin: 0px;
+
+}
+
+#carousel img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: -115px;
+}
+
+#main-new {
+  width: 70%;
+  background-color: #1945a398;
+  margin-left: 20px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+#aside {
+  width: 38%;
+}
+
+#aside img {
+  height: 95%;
+  width: 95%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 30px ;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center; 
+  margin: 5rem 0; 
+}
+
+.education {
+  padding: 100px 15px;
+  background: var(--secondary-bg-color); 
+}
+
+.education h2 {
+  margin-bottom: 5rem; 
+  
+}
+
+.timeline-items {
+  max-width: 1200px; 
+  margin: auto;
+   display: flex; 
+  flex-wrap: wrap; 
+  position: relative; 
+}
+
+.timeline-items::before {
+  content: ""; 
+  position: absolute; 
+  width: 5px; 
+  height: 100%; 
+  background-color: #1945a398; 
+  left: calc(50% - 1px); 
+  top: 0; 
+  transform: translateX(-50%); 
+  border-radius: 5px;
+}
+
+.timeline-item {
+  margin-bottom: 40px; 
+  width: 100%;
+  position: relative; 
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0; 
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px); 
+  text-align: right; 
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px); 
+  text-align: left; 
+}
+
+.timeline-dot {
+  height: 21px;
+  width: 21px; 
+  background-color: #1945a398; 
+  box-shadow: 0 0 20px #1945a398, 0 0 30px #1945a398; 
+  position: absolute; 
+  left: calc(50% - 11px);
+  border-radius: 50%; 
+}
+.timeline-date {
+  font-size: 1.6rem; 
+  font-weight: 800; 
+  color: #ffffff; 
+  margin: 0 0 15px; 
+}
+
+.timeline-content {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 30px 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+}
+
+.timeline-content:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 0 20px #ffffff; 
+}
+
+.timeline-content h3 {
+  font-size: 1.6rem; 
+  font-weight: 600; 
+  color: #ffffff; 
+  margin: 0 0 10px; 
+}
+
+.timeline-content p {
+  font-size: 1.2rem; 
+  font-weight: 300; 
+  color: #ffffff; 
+  line-height: 1.2;
+}
+
+#P-o {
+  font-size: 10 rem;
+  display: flex;
+}
+
+#text1 {
+  flex-direction: column;
+}
+
+#P-0-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+  margin-left: 160px;
+}
+
+#Smaster {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end; 
+  margin-right: 12rem;
+}
+
+#text2 {
+  flex-direction: column;
+}
+
+#SMaster-img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  margin-bottom: 5rem;
+
+}
+
+.Projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 125vh;
+  margin-bottom: 10rem; 
+  padding-top: 100px;
+  margin-top: -200px;
+}
+
+#projetosnakepython {
+  height: 25em;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+#Projetoempython {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+}
+
+.Github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 110vh; 
+}
+
+
+#github {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+  width: 60rem;
+  margin-bottom: 2%;
+}
+
+#MDF {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  width: 60rem;
+  margin-right: 2rem;
+}
+
+#text6 {
+  flex-direction: column;
+}
+
+#bMDF {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+#PLA {
+  font-size: 10 rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 2rem;
+  width: 60rem;
+}
+
+#text7 {
+  flex-direction: column;
+}
+
+#cPLA {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+
+}
+
+.Github h2 {
+  margin-bottom: 2rem; 
+}
+
+
+footer a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#finish {
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+#class {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#gif {
+  width: 80%; 
+  border-radius: 10px; 
+  object-fit: cover;
+}
+
+#home {
+  padding-top: 300px;
+  margin-top: -300px;
+}
+
+#development{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Github{
+  padding-top: 200px;
+  margin-top: -200px;
+}
