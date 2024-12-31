@@ -209,6 +209,16 @@ main {
   transition: 0.3s ease-in-out; 
 }
 
+.timeline-re {
+  background: #1945a398; 
+  border: 1px solid #ffffff; 
+  padding: 30px 50px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffffff; 
+  cursor: pointer; 
+  transition: 0.3s ease-in-out; 
+}
+
 .timeline-content:hover {
   transform: scale(1.05); 
   box-shadow: 0 0 20px #ffffff; 
@@ -271,7 +281,7 @@ main {
   justify-content: center;
   height: 125vh;
   margin-bottom: 10rem; 
-  padding-top: 100px;
+  padding-top: 60px;
   margin-top: -200px;
 }
 
@@ -290,6 +300,7 @@ main {
   cursor: pointer; 
   transition: 0.3s ease-in-out; 
   width: 60rem;
+  
 }
 
 .Github {
@@ -297,7 +308,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 110vh; 
+  height: 50vh; 
 }
 
 
@@ -317,12 +328,12 @@ main {
   font-size: 10 rem;
   display: flex;
   justify-content: end;
-  width: 60rem;
-  margin-right: 2rem;
+  margin-right: 48rem;
 }
 
 #text6 {
   flex-direction: column;
+  
 }
 
 #bMDF {
@@ -336,8 +347,7 @@ main {
   font-size: 10 rem;
   display: flex;
   justify-content: end;
-  margin-right: 2rem;
-  width: 60rem;
+  margin-top: -260px;
 }
 
 #text7 {
@@ -395,3 +405,4 @@ footer a {
   padding-top: 200px;
   margin-top: -200px;
 }
+
