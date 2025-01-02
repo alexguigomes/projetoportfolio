@@ -110,18 +110,6 @@ header {
   box-shadow: 0 0 10px #ffffff;
 }
 
-#aside {
-  width: 38%;
-}
-
-#aside img {
-  height: 95%;
-  width: 95%;
-  border-radius: 10px;
-  object-fit: cover;
-  margin-right: 30px ;
-}
-
 main {
   display: flex;
   justify-content: space-around;
@@ -131,16 +119,6 @@ main {
   font-size: 2rem;
   text-align: center; 
   margin: 5rem 0; 
-}
-
-.education {
-  padding: 100px 15px;
-  background: var(--secondary-bg-color); 
-}
-
-.education h2 {
-  margin-bottom: 5rem; 
-  
 }
 
 .timeline-items {
@@ -312,23 +290,11 @@ main {
 }
 
 
-#github {
-  background: #1945a398; 
-  border: 1px solid #ffffff; 
-  padding: 50px; 
-  border-radius: 10px; 
-  box-shadow: 0 0 10px #ffffff; 
-  cursor: pointer; 
-  transition: 0.3s ease-in-out; 
-  width: 60rem;
-  margin-bottom: 2%;
-}
-
 #MDF {
   font-size: 10 rem;
   display: flex;
   justify-content: end;
-  margin-right: 48rem;
+  margin-right: 15rem;
 }
 
 #text6 {
@@ -340,6 +306,7 @@ main {
   height: 180px;
   width: 180px;
   border-radius: 100px;
+  
 
 }
 
@@ -348,6 +315,8 @@ main {
   display: flex;
   justify-content: end;
   margin-top: -260px;
+  margin-right: -18rem;
+
 }
 
 #text7 {
